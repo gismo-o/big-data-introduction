@@ -20,11 +20,7 @@
 
 ## 🔹 4. Data Life Cycle
 
-1. Ingestion  
-2. Storage  
-3. Processing  
-4. Analysis  
-5. Visualization & Decision Making
+![Data Life Cycle](./data-lifecycle.png)
 
 ---
 
@@ -43,6 +39,7 @@
 - **JSON**: Human-readable format for semi-structured data.
 
 ### Modern File Formats:
+
 - **Avro**: Includes schema, supports efficient serialization.
 - **Parquet**: Columnar storage format, ideal for analytics.
 - **ORC**: Optimized for Hadoop with compressed columnar format.
@@ -68,16 +65,19 @@
 ## 🔹 9. Tools and Technologies
 
 ### ✔ HADOOP Ecosystem:
+
 - **Hadoop**: Framework for distributed storage and processing.
 - **HDFS**: Hadoop’s file system.
 - **Hive**: SQL-like querying for large datasets.
 - **Impala**: Fast SQL engine for real-time queries over big data.
 
 ### ✔ Spark Ecosystem:
+
 - **Spark**: In-memory distributed computing engine.
 - **Spark Streaming**: Processes real-time data streams.
 
 ### ✔ Others:
+
 - **Flink**: Real-time and batch processing engine (especially strong in streaming).
 - **Kafka**: High-throughput distributed messaging system.
 - **Airflow**: Workflow management and data pipeline scheduling tool.
